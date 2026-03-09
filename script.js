@@ -1,8 +1,7 @@
-const numero1 = 8
-const numero2 = 12
-
-function somaNumeros(){
-    console.log("cheguei aqui")
+function somaNumeros(a, b){
+    return a + b
 }
 
-somaNumeros()
+const soma1 = somaNumeros(8, 15)
+
+console.log(soma1)
